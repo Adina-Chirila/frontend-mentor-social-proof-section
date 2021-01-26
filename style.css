@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Spartan", sans-serif;
+	font-size: 15px;
+	min-height: 100vh;
+	background: no-repeat top left url("./images/bg-pattern-top-mobile.svg"),
+		no-repeat bottom right url("./images/bg-pattern-bottom-mobile.svg");
+}
+
+.container {
+	width: 95%;
+	max-width: 900px;
+	margin: 0 auto;
+	/* border: 1px solid red; */
+}
+
+main {
+	text-align: center;
+	margin-top: 5em;
+}
+
+.title {
+	color: hsl(300, 43%, 22%);
+	font-size: 2rem;
+	line-height: 1;
+}
+
+main p {
+	color: hsl(303, 10%, 53%);
+	line-height: 1.5;
+	margin: 2em 0 2.5em 0;
+}
+
+.rating {
+	background-color: hsl(300, 24%, 96%);
+	padding: 1em;
+	border-radius: 0.5em;
+}
+
+.rating + .rating {
+	margin-top: 1em;
+}
+
+.stars {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rating-desc {
+	text-align: center;
+	color: hsl(300, 43%, 22%);
+	font-weight: 700;
+	margin-top: 1em;
+}
+
+.testimonials {
+	margin-top: 3em;
+}
+
+.testimonial-box {
+	background-color: hsl(300, 43%, 22%);
+	color: white;
+	padding: 2.5em 1.7em;
+	border-radius: 0.5em;
+	margin-bottom: 1em;
+}
+
+.testimonials:last-child {
+	margin-bottom: 0;
+}
+
+.testimonial-header {
+	display: flex;
+	align-items: center;
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 3.5em;
+}
+
+.buyer-info {
+	margin-left: 1em;
+	line-height: 1.7;
+}
+
+.buyer-name {
+	font-weight: 700;
+}
+
+.buyer-status {
+	color: hsl(333, 80%, 67%);
+}
+
+.testimonial-content {
+	font-size: 14px;
+	margin-top: 2em;
+	line-height: 1.7;
+}
+
+footer {
+	text-align: center;
+	padding: 1em 0;
+	color: hsl(300, 43%, 22%);
+	font-size: 12px;
+	/* border: 1px solid red; */
+}
+
+footer a {
+	color: inherit;
+}
