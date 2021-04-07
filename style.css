@@ -37,7 +37,7 @@ body {
 	color: hsl(303, 10%, 53%);
 	line-height: 1.5;
 	margin: 2em 0 2.5em 0;
-	width: 88%;
+	width: 100%;
 }
 
 .rating {
@@ -147,6 +147,7 @@ footer a {
 
 	.hero p {
 		margin-bottom: 0;
+		width: 88%;
 	}
 
 	.rating-container {
